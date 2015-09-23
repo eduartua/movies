@@ -153,6 +153,10 @@ def create_movie_tiles_content(movies):
 
 def open_movies_page(movies):
     # Create or overwrite the output file
+    """
+
+    :rtype : object
+    """
     output_file = open('fresh_tomatoes.html', 'w')
 
     # Replace the movie tiles placeholder generated content
